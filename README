@@ -1,0 +1,51 @@
+# Aplicación Full Stack: Administración de Clientes
+## Descripción
+
+Esta aplicación web es un proyecto Full Stack que incluye un **frontend** desarrollado en **Angular** y un **backend** en **Spring Boot** con **MySQL** como base de datos. 
+El objetivo principal es permitir la gestión de clientes, productos, pedidos y más, con un sistema de autenticación y autorización robusto.
+
+El proyecto ha sido desarrollado para aprender y dominar tecnologías modernas para crear aplicaciones web escalables y eficientes.
+
+## Tecnologías Utilizadas
+
+### Frontend
+- **Angular 16**: Framework para el desarrollo de aplicaciones SPA.
+- **Bootstrap**: Para diseño responsive.
+- **TypeScript**: Lenguaje utilizado para añadir tipado estático en el frontend.
+- **Angular CLI**: Herramienta para gestión de proyectos Angular.
+- **h8k-design**: Librería gráfica para componentes responsive.
+
+### Backend
+- **Spring Boot 3.3.0**: Framework para la creación de servicios REST.
+- **Java 1.8**: Versión de Java utilizada para el desarrollo backend.
+- **MySQL**: Base de datos relacional para gestionar la persistencia de datos.
+- **JPA / Hibernate**: Para la gestión de las relaciones entre entidades.
+- **Maven**: Para la gestión de dependencias y el ciclo de vida del proyecto.
+
+### Otras Herramientas
+- **SonarCloud & SonarLint**: Para análisis de calidad de código estático.
+- **Selenium & AFL**: Para pruebas dinámicas y fuzzing.
+- **Oracle Cloud Infrastructure (OCI)**: Para la integración con funciones en la nube, almacenamiento y base de datos autónoma.
+
+## Características
+
+- Gestión de clientes, productos, pedidos y proveedores.
+- Relación entre entidades como Cliente, Dirección de Envío, Pedidos y Productos.
+- Autenticación y autorización en Angular, con inicio de sesión y registro.
+- Interfaz de usuario responsive con Bootstrap.
+- Consumo de servicios REST para CRUD de entidades.
+- Pruebas unitarias para asegurar la calidad del código.
+
+## Instalación
+
+### Requisitos previos
+
+- **Node.js** y **npm** instalados.
+- **Angular CLI** instalado.
+- **Java 8+** instalado.
+- **MySQL** instalado y corriendo.
+
+### Clonar el repositorio
+
+```bash
+git clone https://github.com/diego32156/UdemyUC.git
